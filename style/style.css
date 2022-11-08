@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #000000;
+}
+@font-face {
+    font-family: regular;
+    src: url( ../fonts/FiraGO-Regular\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: semibold ;
+    src: url(../fonts/FiraGO-SemiBold.ttf);
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    padding: 64px  38px;
+    border-bottom: 3px solid white;
+}
+
+header h1{
+    float: left;
+    margin-right: 600px;
+    color: #ffffff;
+    font-family: regular;
+}
+
+header ul li{
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: regular;
+    color: #ffffff;
+    
+
+}
+
+.main{
+    font-family: semibold ;
+}
+
+/* ------------------main -------------------*/
+
+.satauri{
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 100px;
+    margin: 50px auto;
+    margin-left: 100px;
+    font-family: semibold ;
+}
+
+.mtavari{
+    width: 100%;
+    padding: 60px;
+    
+}
+
+.text{
+    width: 33.33%;
+    color: #ffffff;
+    margin: 50px auto;
+    margin-top: 135px;
+    float: left;
+    font-family: regular;
+
+}
+
+.xazi1{
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.w{
+    color: #000000;
+}
+
+.container{
+    padding: 34px;
+    
+}
+
+.statia{
+    width: 33.33%;
+    float: left;
+}
+.tavi{
+    color: #ffffff;
+    margin: 10px;
+    font-size: 20px;
+    font-family: regular;
+}
+
+
+.surati{
+    width: 100%;
+    height: 628px;
+    overflow: hidden;
+    margin: 5px;
+    clear: both;
+   margin-bottom: 100px;
+      
+}
+
+/* --------------------footer---------------------- */
+
+footer{
+    width: 100%;
+    height: 200px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 112px;
+    
+    
+}
+
+footer img{
+    width: 100%;
+    float: left;
+}
+
+.rogor{
+    color: #ffffff;
+    width: 138px;
+    font-size: 30px;
+    font-family: regular;
+    text-align: justify;
+    margin-left: 228px;
+    margin-bottom: 60px ;
+    clear: both;
+}
+
